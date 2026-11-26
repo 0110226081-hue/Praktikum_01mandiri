@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Kelompok 1</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #d5dce5;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            color: #333;
+        }
+
+        .intro {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .anggota {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .kartu {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .foto {
+            width: 120px;
+            height: 140px;
+            object-fit: cover;
+            background-color: #ddd;
+        }
+
+        footer {
+            background-color: #d5dce5;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .anggota {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>KELOMPOK 1</h1>
+        <p>Desain UI/UX Pemrograman Web</p>
+        <p>STT Terpadu Nurul Fikri</p>
+    </header>
+
+    <section class="intro">
+        <h2>Profil Kelompok</h2>
+        <p>
+            Kami merupakan mahasiswa Program Studi Teknik Informatika
+            STT Terpadu Nurul Fikri. Website ini dibuat untuk menampilkan
+            biodata anggota kelompok dalam Praktikum 1 Dasar-Dasar HTML.
+        </p>
+    </section>
+
+    <main class="anggota">
+
+        <article class="kartu">
+            <img src="foto1.jpg" alt="Foto Anggota 1" class="foto">
+            <div>
+                <h3>Afdiah Hasanah Lubis 1</h3>
+                <p>NIM: 0110226081</p>
+                <p>Kelas: Ti02</p>
+                <p>Prodi: Teknik Informatika</p>
+            </div>
+        </article>
+
+        <article class="kartu">
+            <img src="foto2.jpg" alt="Foto Anggota 2" class="foto">
+            <div>
+                <h3>Abdullah Qowiy 2</h3>
+                <p>NIM: 0110226123</p>
+                <p>Kelas: Ti02</p>
+                <p>Prodi: Teknik Informatika</p>
+            </div>
+        </article>
+
+        <article class="kartu">
+            <img src="foto3.jpg" alt="Foto Anggota 3" class="foto">
+            <div>
+                <h3>Abdullah Azzam 3</h3>
+                <p>NIM: 0110226038</p>
+                <p>Kelas: Ti02</p>
+                <p>Prodi: Teknik Informatika</p>
+            </div>
+        </article>
+
+        <article class="kartu">
+            <img src="foto4.jpg" alt="Foto Anggota 4" class="foto">
+            <div>
+                <h3>Adi Fadlurahman 4</h3>
+                <p>NIM: 0110226053</p>
+                <p>Kelas: Ti02</p>
+                <p>Prodi: Teknik Informatika</p>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Praktikum 1 - Dasar-Dasar HTML</p>
+        <p>STT Terpadu Nurul Fikri</p>
+    </footer>
+
+</body>
+</html>
+
